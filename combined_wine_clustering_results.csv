@@ -1,0 +1,32 @@
+Performance using different clustering techniques on various parameters
+
+Using K-Mean Clustering
+,No Data Processing,No Data Processing,No Data Processing,Using Normalization,Using Normalization,Using Normalization,Using Transform,Using Transform,Using Transform,Using PCA,Using PCA,Using PCA,Using T+N,Using T+N,Using T+N,T+N+PCA,T+N+PCA,T+N+PCA
+,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3
+Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters
+Silhouette,NA,0.66,0.57,NA,0.26,0.28,NA,0.26,0.3,NA,0.66,0.57,NA,0.26,0.3,NA,0.39,0.47
+Calinski-Harabasz,NA,505,562,NA,70,71,NA,68,73,NA,506,562,NA,68,73,NA,123,177
+Davies-Bouldin,NA,0.48,0.53,NA,1.53,1.39,NA,1.54,1.36,NA,0.48,0.53,NA,1.54,1.36,NA,1.11,0.82
+
+Using Hierarchical Clustering
+,No Data Processing,No Data Processing,No Data Processing,Using Normalization,Using Normalization,Using Normalization,Using Transform,Using Transform,Using Transform,Using PCA,Using PCA,Using PCA,Using T+N,Using T+N,Using T+N,T+N+PCA,T+N+PCA,T+N+PCA
+,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3
+Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters
+Silhouette,NA,0.66,0.56,NA,0.27,0.28,NA,0.26,0.29,NA,0.66,0.56,NA,0.26,0.29,NA,0.39,0.46
+Calinski-Harabasz,NA,483,553,NA,65,68,NA,63,69,NA,483,553,NA,63,69,NA,114,169
+Davies-Bouldin,NA,0.46,0.54,NA,1.41,1.42,NA,1.47,1.39,NA,0.46,0.54,NA,1.47,1.39,NA,0.94,0.84
+
+Using K-mean Shift Clustering
+,No Data Processing,No Data Processing,No Data Processing,Using Normalization,Using Normalization,Using Normalization,Using Transform,Using Transform,Using Transform,Using PCA,Using PCA,Using PCA,Using T+N,Using T+N,Using T+N,T+N+PCA,T+N+PCA,T+N+PCA
+,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3
+Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters
+Silhouette,NA,0.27,0.27,NA,0.22,0.22,NA,0.11,0.11,NA,0.58,0.58,NA,0.11,0.11,NA,0.44,0.44
+Calinski-Harabasz,NA,1984,1984,NA,19,19,NA,8,8,NA,351,351,NA,8,8,NA,117,117
+Davies-Bouldin,NA,0.48,0.48,NA,0.98,0.98,NA,2.01,2.01,NA,0.45,0.45,NA,2.01,2.01,NA,0.81,0.81
+
+
+Best Clustering Configuration:
+Best Clustering Algorithm: kmeans
+Best Number of Clusters: 2
+Best Silhouette Score: 0.66
+Best Preprocessing Method: none

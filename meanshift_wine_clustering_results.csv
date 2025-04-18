@@ -1,0 +1,6 @@
+,No Data Processing,No Data Processing,No Data Processing,Using Normalization,Using Normalization,Using Normalization,Using Transform,Using Transform,Using Transform,Using PCA,Using PCA,Using PCA,Using T+N,Using T+N,Using T+N,T+N+PCA,T+N+PCA,T+N+PCA
+,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3,c=1,c=2,c=3
+Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters,Parameters
+Silhouette,NA,0.27,0.27,NA,0.22,0.22,NA,0.11,0.11,NA,0.58,0.58,NA,0.11,0.11,NA,0.44,0.44
+Calinski-Harabasz,NA,1984,1984,NA,19,19,NA,8,8,NA,351,351,NA,8,8,NA,117,117
+Davies-Bouldin,NA,0.48,0.48,NA,0.98,0.98,NA,2.01,2.01,NA,0.45,0.45,NA,2.01,2.01,NA,0.81,0.81
